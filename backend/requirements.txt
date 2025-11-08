@@ -1,0 +1,28 @@
+# Web
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Data
+pandas==2.2.3
+pyarrow==17.0.0
+openpyxl==3.1.5
+
+# Utilities
+python-dotenv==1.0.1
+loguru==0.7.2
+
+# (Will add later in Phase 2+)
+# scikit-learn==1.5.2
+# pycaret==3.3.2
+# optuna==4.0.0
+# prophet==1.1.6
+# statsmodels==0.14.4
+# darts==0.30.0
+# shap==0.46.0
+# dice-ml==0.11.0
+# dowhy==0.11.1
+# evidently==0.5.1
+# fairlearn==0.10.0

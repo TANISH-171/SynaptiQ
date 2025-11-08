@@ -1,0 +1,14 @@
+# venv
+.venv/
+# python
+__pycache__/
+*.pyc
+# data & registry
+backend/.data/
+# env
+.env
+backend/.env
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
