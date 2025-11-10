@@ -1,8 +1,8 @@
 from fastapi import APIRouter
-from ..schemas.base import ApiResponse
+from ..schemas.base import APIResponse
 
 router = APIRouter(prefix="/models", tags=["models"])
 
-@router.get("/leaderboard", response_model=ApiResponse)
+@router.get("/leaderboard", response_model=APIResponse)
 def leaderboard():
-    return ApiResponse(ok=True, message="Model leaderboard coming soon")
+    return APIResponse(ok=True, message="Model leaderboard coming soon")

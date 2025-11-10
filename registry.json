@@ -1,0 +1,159 @@
+{
+  "datasets": {
+    "ds1": {
+      "id": "ds1",
+      "name": "Tiny",
+      "path": "C:\\Users\\DELL\\AppData\\Local\\Temp\\pytest-of-DELL\\pytest-2\\test_preview_and_profile_happy0\\tiny.csv",
+      "mime": "text/csv",
+      "profile": {
+        "dataset_id": "ds1",
+        "name": "Tiny",
+        "rows": 5,
+        "cols": 3,
+        "columns": [
+          {
+            "name": "a",
+            "dtype": "int64",
+            "missing": 0,
+            "missing_pct": 0.0,
+            "unique": 5,
+            "sample_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "name": "b",
+            "dtype": "float64",
+            "missing": 0,
+            "missing_pct": 0.0,
+            "unique": 5,
+            "sample_values": [
+              "10.0",
+              "9.5",
+              "8.1",
+              "7.2",
+              "6.0"
+            ]
+          },
+          {
+            "name": "c",
+            "dtype": "object",
+            "missing": 0,
+            "missing_pct": 0.0,
+            "unique": 3,
+            "sample_values": [
+              "x",
+              "y",
+              "y",
+              "z",
+              "x"
+            ]
+          }
+        ],
+        "missing_overall_pct": 0.0,
+        "numeric_cols": [
+          "a",
+          "b"
+        ],
+        "categorical_cols": [
+          "c"
+        ],
+        "numeric_summary": {
+          "a": {
+            "min": 1.0,
+            "max": 5.0,
+            "mean": 3.0,
+            "std": 1.5811388300841898
+          },
+          "b": {
+            "min": 6.0,
+            "max": 10.0,
+            "mean": 8.16,
+            "std": 1.641036257978476
+          }
+        },
+        "top_values": {
+          "a": [
+            {
+              "value": 1,
+              "count": 1
+            },
+            {
+              "value": 2,
+              "count": 1
+            },
+            {
+              "value": 3,
+              "count": 1
+            },
+            {
+              "value": 4,
+              "count": 1
+            },
+            {
+              "value": 5,
+              "count": 1
+            }
+          ],
+          "b": [
+            {
+              "value": 10.0,
+              "count": 1
+            },
+            {
+              "value": 9.5,
+              "count": 1
+            },
+            {
+              "value": 8.1,
+              "count": 1
+            },
+            {
+              "value": 7.2,
+              "count": 1
+            },
+            {
+              "value": 6.0,
+              "count": 1
+            }
+          ],
+          "c": [
+            {
+              "value": "x",
+              "count": 2
+            },
+            {
+              "value": "y",
+              "count": 2
+            },
+            {
+              "value": "z",
+              "count": 1
+            }
+          ]
+        },
+        "corr": {
+          "method": "pearson",
+          "matrix": [
+            [
+              1.0,
+              -0.9924052482502039
+            ],
+            [
+              -0.9924052482502039,
+              1.0
+            ]
+          ],
+          "columns": [
+            "a",
+            "b"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -18,6 +18,8 @@ format:
 	isort .
 	ruff check .
 
+.PHONY: test
 test:
-	python -m pip install pytest
+	python -m pip install -r backend/requirements.txt || true
 	pytest -q backend/tests
+
