@@ -8,7 +8,7 @@ from ..services import registry
 from ..services.profiling import load_dataframe_from_path, build_preview, build_profile
 from ..schemas.dataset import DatasetPreviewResponse, DatasetProfileResponse
 
-router = APIRouter(prefix="/ingest", tags=["ingest"])
+router = APIRouter(tags=["ingest"])
 
 
 @router.get("/list")

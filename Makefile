@@ -21,5 +21,6 @@ format:
 .PHONY: test
 test:
 	python -m pip install -r backend/requirements.txt || true
+	set PYTHONPATH=backend
 	pytest -q backend/tests
 

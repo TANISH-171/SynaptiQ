@@ -1,0 +1,1 @@
+{"best_model": "naive", "evaluation": {"avg_mae": {"naive": NaN, "seasonal_naive": NaN, "arima": NaN}, "best_model_name": "naive"}, "forecast": [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN], "history_dates": [

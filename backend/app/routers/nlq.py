@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from ..schemas.taskplan import TaskPlan, TaskStep
 
-router = APIRouter(prefix="/nlq", tags=["nlq"])
+router = APIRouter(tags=["nlq"])
 
 @router.post("/route", response_model=TaskPlan)
 def route_query(query: str):
